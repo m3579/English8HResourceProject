@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+ul#menu-bar {
+	
+	list-style-type: none;
+	
+	background-color: #008000;
+	
+	height: 100px;
+	
+	line-height: 100px;
+	
+	text-align: center;
+	
+	position: fixed;
+	
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+ul#menu-bar li {
+	display: inline;
+
+	margin-right: 10%;
+}
+
+ul#menu-bar a {
+	color: #ffffff;
+	
+	font-size: 20px;
+	
+	text-decoration: none;
+}

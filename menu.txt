@@ -1,7 +1,8 @@
 <ul id="menu-bar">
-	<li><a href="index.php">Home</a></li>
-	<li><a href="about.php">About</a></li>
-	<li><a href="facts.php">Holocaust Facts</a></li>
-	<li><a href="stories.php">Stories</a></li>
-	<li><a href="faq.php">FAQ</a></li>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="facts.html">Holocaust Facts</a></li>
+	<li><a href="stories.html">Stories</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="bibliography.html">Bibliography</a></li>
 </ul>

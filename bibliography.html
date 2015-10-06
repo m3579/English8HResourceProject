@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Bibliography</title>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="menu.js"></script>
+	
+		<link rel="stylesheet" href="style.css">
+		
+		<script>
+		
+			var number = 1;
+		
+			function writeCitation(citation) {
+				if (number == 1) {
+					column = "works-cited-one";
+					number = 2;
+				}
+				else {
+					column = "works-cited-two";
+					number = 1;
+				}
+			
+				$("#" + column).append("<li>" + citation + "</li>");
+				
+			}
+			
+		</script>
+
+	</head>
+	<body>
+		<nav id="menu-container"></nav>
+		
+		<h1>Bibliography</h1>
+		
+		<div id="works-cited">
+			
+			<h4 id="works-cited-title">Works Cited</h4>
+			
+			<ul id="works-cited-one"></ul>
+			
+			<ul id="works-cited-two"></ul>
+			
+			<script>
+				writeCitation("Documents studied in class");
+				writeCitation("\"Introduction to the Holocaust.\" United States Holocaust Memorial Museum. United States Holocaust Memorial Council, 18 Aug. 2015. Web. 05 Oct. 2015.");
+			</script>
+			
+		</div>	
+		
+	</body>
+</html>

@@ -3,11 +3,33 @@ body {
 	
 	margin-top: 200px;
 	margin-left: 100px;
+	
+	line-height: 1.5em;
 }
 
 h1 {
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+p.intro {
+	width: 700px;
+	
+	font-style: italic;
+}
+
+div.main {
+	background-color: #008000;
+	
+	padding: 20px;
+	
+	color: #ffffff;
+	
+	font-weight: lighter;
+}
+
+p.question {
+	font-weight: bold;
 }
 
 ul#menu-bar {
@@ -32,13 +54,38 @@ ul#menu-bar {
 ul#menu-bar li {
 	display: inline;
 
-	margin-right: 10%;
+	margin-right: 8%;
 }
 
-ul#menu-bar a {
+ul#menu-bar a {
 	color: #ffffff;
 	
 	font-size: 20px;
 	
 	text-decoration: none;
+}
+
+#works-cited-title {
+	margin-left: 41%;	
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+ul#works-cited-one li, ul#works-cited-two li {
+	margin-bottom: 25px;
+}
+
+#works-cited-one {
+	width: 500px;
+	margin-left: 20px;
+	
+	float: left;
+}
+
+#works-cited-two {
+	width: 500px;
+	margin-right: 110px;
+	
+	float: right;
 }

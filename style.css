@@ -30,6 +30,16 @@ div.main {
 	font-weight: lighter;
 }
 
+::selection {
+	background-color: #00ff00;
+	
+	color: #ffffff;
+}
+
+div.main::selection {
+	color: #ffffff;
+}
+
 p.question {
 	font-weight: bold;
 }

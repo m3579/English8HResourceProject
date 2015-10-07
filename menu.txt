@@ -1,6 +1,5 @@
 <ul id="menu-bar">
 	<li><a href="index.html">Home</a></li>
-	<li><a href="about.html">About</a></li>
 	<li><a href="facts.html">Holocaust Facts</a></li>
 	<li><a href="stories.html">Stories</a></li>
 	<li><a href="faq.html">FAQ</a></li>
